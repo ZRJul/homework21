@@ -1,0 +1,33 @@
+.field_name{
+    display: flex;
+    margin-top: 20px;
+}
+
+.field_name div{
+    margin-right: 20px;
+}
+
+.field_gender{
+    display: flex;
+    margin-top: 20px;
+}
+
+.field_gender .text p{
+    margin: 0;
+}
+
+.field_address{
+    display: flex;
+    margin-top: 20px;
+}
+
+.for_address{
+    display: flex;
+    align-content: flex-start;
+    margin-left: 20px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 5px 10px;
+}

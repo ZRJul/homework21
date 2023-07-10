@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homework 21</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+<form id="registrationForm">
+    <div class="field_name">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your First Name">
+        </div>
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your Last Name">
+        </div>
+        <div>
+            <label for="birth">Date of Birth:</label>
+            <input type="text" id="birth" name="birth" placeholder="Enter your date of Birth">
+        </div>
+    </div>
+
+    <div class="field_gender">
+        <div class="text">
+            <p>Choose your gender:</p>
+        </div>
+        <div>
+            <div class="field">
+                <input type="radio" id="woman" name="gender" value="woman">
+                <label for="woman">Woman</label>
+            </div>
+
+            <div class="field">
+                <input type="radio" id="man" name="gender" value="man">
+                <label for="man">Man</label>
+            </div>
+
+            <div class="field">
+                <input type="radio" id="lgbt" name="gender" value="lgbt">
+                <label for="lgbt">Lgbt+</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="field_address">
+        <div>
+            <select name="city" id="city">
+                <option value="">Choose your city</option>
+                <option value="kyiv">Kyiv</option>
+                <option value="odesa">Odesa</option>
+                <option value="kharkiv">Kharkiv</option>
+                <option value="lviv">Lviv</option>
+                <option value="poltava">Poltava</option>
+            </select>
+        </div>
+
+        <div class="for_address">
+            <label for="address">Enter your address:</label>
+            <textarea id="address" name="address" rows="6" cols="33"></textarea>
+        </div>
+    </div>
+
+    <div class="field">
+        <div>
+            <p>Knowledge of languages:</p>
+        </div>
+        <div>
+            <input type="checkbox" id="ukrainian" name="languages" value="Ukrainian">
+            <label for="ukrainian">Ukrainian</label>
+        </div>
+        <div>
+            <input type="checkbox" id="english" name="languages" value="English">
+            <label for="english">English</label>
+        </div>
+        <div>
+            <input type="checkbox" id="french" name="languages" value="French">
+            <label for="french">French</label>
+        </div>
+        <div>
+            <input type="checkbox" id="german" name="languages" value="German">
+            <label for="german">German</label>
+        </div>
+        <div>
+            <input type="checkbox" id="different" name="languages" value="Different">
+            <label for="different">Different</label>
+        </div>
+    </div>
+
+    <button type="button" onclick="saveForm()">Save</button>
+</form>
+
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
